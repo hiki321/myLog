@@ -7,4 +7,4 @@ add_executable(hello src/hello.cpp)
 set(CMAKE_BUILD_TYPE Debug)
 
 # 指定需要链接的库文件  
-target_link_libraries(hello pthread)
+target_link_libraries(hello spdlog pthread)
