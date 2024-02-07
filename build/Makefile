@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/long/code/0207/gitskills
+CMAKE_SOURCE_DIR = /home/long/code/0207/myLog
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/long/code/0207/gitskills/build
+CMAKE_BINARY_DIR = /home/long/code/0207/myLog/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/long/code/0207/gitskills/build/CMakeFiles /home/long/code/0207/gitskills/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/long/code/0207/myLog/build/CMakeFiles /home/long/code/0207/myLog/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/long/code/0207/gitskills/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/long/code/0207/myLog/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -150,6 +150,33 @@ src/hello.cpp.s:
 	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/src/hello.cpp.s
 .PHONY : src/hello.cpp.s
 
+src/log/log.o: src/log/log.cpp.o
+
+.PHONY : src/log/log.o
+
+# target to build an object file
+src/log/log.cpp.o:
+	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/src/log/log.cpp.o
+.PHONY : src/log/log.cpp.o
+
+src/log/log.i: src/log/log.cpp.i
+
+.PHONY : src/log/log.i
+
+# target to preprocess a source file
+src/log/log.cpp.i:
+	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/src/log/log.cpp.i
+.PHONY : src/log/log.cpp.i
+
+src/log/log.s: src/log/log.cpp.s
+
+.PHONY : src/log/log.s
+
+# target to generate assembly for a file
+src/log/log.cpp.s:
+	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/src/log/log.cpp.s
+.PHONY : src/log/log.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... src/hello.o"
 	@echo "... src/hello.i"
 	@echo "... src/hello.s"
+	@echo "... src/log/log.o"
+	@echo "... src/log/log.i"
+	@echo "... src/log/log.s"
 .PHONY : help
 
 

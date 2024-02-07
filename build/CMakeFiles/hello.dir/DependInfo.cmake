@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/long/code/0207/gitskills/src/hello.cpp" "/home/long/code/0207/gitskills/build/CMakeFiles/hello.dir/src/hello.cpp.o"
+  "/home/long/code/0207/myLog/src/hello.cpp" "/home/long/code/0207/myLog/build/CMakeFiles/hello.dir/src/hello.cpp.o"
+  "/home/long/code/0207/myLog/src/log/log.cpp" "/home/long/code/0207/myLog/build/CMakeFiles/hello.dir/src/log/log.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

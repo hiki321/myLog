@@ -1,0 +1,4 @@
+[2024-02-07 02:07:35.551] [multi_sink] [info] [hello.cpp:40] This is an info message
+[2024-02-07 02:07:35.551] [multi_sink] [warning] [hello.cpp:41] This is a warning message
+[2024-02-07 02:07:35.551] [multi_sink] [error] [hello.cpp:42] This is an error message
+[2024-02-07 02:07:35.551] [multi_sink] [critical] [hello.cpp:43] This is a critical message

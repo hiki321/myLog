@@ -6,15 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/long/code/0207/gitskills/src/hello.cpp
+/home/long/code/0207/myLog/src/log/log.cpp
 iostream
 -
 spdlog/spdlog.h
-/home/long/code/0207/gitskills/src/spdlog/spdlog.h
+/home/long/code/0207/myLog/src/log/spdlog/spdlog.h
 spdlog/sinks/basic_file_sink.h
-/home/long/code/0207/gitskills/src/spdlog/sinks/basic_file_sink.h
+/home/long/code/0207/myLog/src/log/spdlog/sinks/basic_file_sink.h
 spdlog/sinks/stdout_color_sinks.h
-/home/long/code/0207/gitskills/src/spdlog/sinks/stdout_color_sinks.h
+/home/long/code/0207/myLog/src/log/spdlog/sinks/stdout_color_sinks.h
 ctime
 -
+log.h
+/home/long/code/0207/myLog/src/log/log.h
+
+/home/long/code/0207/myLog/src/log/log.h
 
